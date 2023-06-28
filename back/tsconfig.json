@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*"]
+      },
+      "typeRoots": [
+        "./src/types",
+        "./node_modules/@types"
+      ],
+      "resolveJsonModule": true,
+       "outDir": "public",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*", "**/*"],
+    "exclude": ["node_modules/*"]
+  }
